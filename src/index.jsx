@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, IndexRedirect, hashHistory } from 'react-router';
 
+import books from './data/books';
+
 import App from './App';
 import Home from './components/Home';
 import About from './components/About';
@@ -18,8 +20,8 @@ ReactDOM.render(
       <Route path="books" component={Books}>
         <IndexRedirect to="/books/javascript" />
         <Route path=":topic">
-          <IndexRoute component={Shelf} />
-          <Route path=":slug" component={Book} />
+          <IndexRoute component={Shelf} books={books} />
+          <Route path=":slug" component={Book} books={books} />
         </Route>
       </Route>
       <Route path="*" component={NotFound} />
