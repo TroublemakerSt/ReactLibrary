@@ -14,9 +14,9 @@ class App extends React.Component {
                     <span className="mdl-layout-spacer"></span>
                     <nav className="mdl-navigation">
                         <NavLink to="/" onlyActiveOnIndex={true}
-                        className="mdl-navigation__link">Главная</NavLink>
-                        <NavLink to="/about" className="mdl-navigation__link">О проекте</NavLink>
-                        <NavLink to="/books" className="mdl-navigation__link">Книги</NavLink>
+                        className="mdl-navigation__link">Home</NavLink>
+                        <NavLink to="/about" className="mdl-navigation__link">About Project</NavLink>
+                        <NavLink to="/books" className="mdl-navigation__link">Books</NavLink>
                     </nav>
                 </div>
             </header>

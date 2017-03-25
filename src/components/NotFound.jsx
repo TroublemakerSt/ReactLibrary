@@ -4,7 +4,7 @@ function NotFound() {
   return (
       <section className="content not-found">
           <i className="material-icons">error_outline</i>
-          <h2>Не найдено</h2>
+          <h2>Ooops... Not Found</h2>
       </section>
   );
 }
