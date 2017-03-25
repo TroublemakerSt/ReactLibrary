@@ -8,7 +8,7 @@ function Shelf(props) {
   return (
       <div className="mdl-grid">
           {books.map(book =>
-              <div key={book.slug} className="book-card mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
+              <div key={book.tagline} className="book-card mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
                   <div className="mdl-card__content">
                       <img src={book.cover} className="book-card__image" />
 
@@ -23,7 +23,7 @@ function Shelf(props) {
                   </div>
 
                   <div className="mdl-card__actions mdl-card--border">
-                      <Link to={`/books/${topic}/${book.slug}`}
+                      <Link to={`/books/${topic}/${book.tagline}`}
                       className="mdl-button mdl-button--colored">
                           More
                       </Link>

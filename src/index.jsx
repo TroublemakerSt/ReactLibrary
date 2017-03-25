@@ -21,7 +21,7 @@ ReactDOM.render(
         <IndexRedirect to="/books/javascript" />
         <Route path=":topic">
           <IndexRoute component={Shelf} books={books} />
-          <Route path=":slug" component={Book} books={books} />
+          <Route path=":tagline" component={Book} books={books} />
         </Route>
       </Route>
       <Route path="*" component={NotFound} />

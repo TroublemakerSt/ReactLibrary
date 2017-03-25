@@ -1,7 +1,7 @@
 const books = {
   "javascript": [
     {
-      slug: "head-first-html-and-css",
+      tagline: "head-first-html-and-css",
       title: "Head First JavaScript Programming",
       author: "Eric Freeman, Elisabeth Robson",
       publisher: "O'Reilly",
@@ -11,7 +11,7 @@ const books = {
       cover: "http://akamaicovers.oreilly.com/images/0636920027065/cat.gif"
     },
     {
-      slug: "learning-javascript",
+      tagline: "learning-javascript",
       title: "Learning JavaScript",
       author: "Ethan Brown",
       publisher: "O'Reilly",
@@ -21,7 +21,7 @@ const books = {
       cover: "https://akamaicovers.oreilly.com/images/0636920035534/cat.gif"
     },
     {
-      slug: "secrets-of-the-javascript-ninja",
+      tagline: "secrets-of-the-javascript-ninja",
       title: "Secrets of the JavaScript Ninja",
       author: "John Resig, Bear Bibeault, Josip Maras",
       publisher: "Manning",
@@ -31,7 +31,7 @@ const books = {
       cover: "https://images.manning.com/255/340/resize/book/b/72b6dbb-4eb6-4bbd-9078-b47f0393a1bb/Resig-JSN-2ed-HI.png"
     },
     {
-      slug: "understanding-ecmascript-6",
+      tagline: "understanding-ecmascript-6",
       title: "Understanding ECMAScript 6",
       author: "Nicholas C. Zakas",
       publisher: "O'Reilly",
@@ -43,7 +43,7 @@ const books = {
   ],
   "react":[
     {
-      slug: "react-up-and-running",
+      tagline: "react-up-and-running",
       title: "React: Up & Running",
       author: "Stoyan Stefanov",
       publisher: "O'Reilly",
@@ -53,7 +53,7 @@ const books = {
       cover: "http://akamaicovers.oreilly.com/images/0636920042266/cat.gif"
     },
     {
-      slug: "learning-react",
+      tagline: "learning-react",
       title: "Learning React",
       author: "Alex Banks, Eve Porcello",
       publisher: "O'Reilly",
@@ -63,7 +63,7 @@ const books = {
       cover: "https://images-na.ssl-images-amazon.com/images/I/51SwmuUJrAL._SX379_BO1,204,203,200_.jpg"
     },
     {
-      slug: "fullstack-react",
+      tagline: "fullstack-react",
       title: "Fullstack React",
       author: "Anthony Accomazzo, Ari Lerner",
       publisher: "fullstack.io",
@@ -73,7 +73,7 @@ const books = {
       cover: "http://www.fullstack.io/images/products/books/fullstack_react_book_cover.png"
     },
     {
-      slug: "pro-react",
+      tagline: "pro-react",
       title: "Pro React",
       author: "Cassio de Sousa Antonio",
       publisher: "Apress",
@@ -85,7 +85,7 @@ const books = {
   ],
   "angular":[
     {
-      slug: "ng-book-2",
+      tagline: "ng-book-2",
       title: "ng-book 2",
       author: "Ari Lerner Felipe Coury",
       publisher: "fullstack.io",
@@ -95,7 +95,7 @@ const books = {
       cover: "http://www.fullstack.io/images/products/books/ng_book_2_cover.png"
     },
     {
-      slug: "learning-angular2",
+      tagline: "learning-angular2",
       title: "Learning Angular 2",
       author: "Pablo Deeleman",
       publisher: "Packt",
@@ -105,7 +105,7 @@ const books = {
       cover: "https://images-na.ssl-images-amazon.com/images/I/51l-bpUSanL._SX404_BO1,204,203,200_.jpg"
     },
     {
-      slug: "angular2-development-with-typescript",
+      tagline: "angular2-development-with-typescript",
       title: "Angular 2 Development with TypeScript",
       author: "Yakov Fain, Anton Moiseev",
       publisher: "Manning",
@@ -115,7 +115,7 @@ const books = {
       cover: "https://images-na.ssl-images-amazon.com/images/I/41vrLAdPaxL._SX397_BO1,204,203,200_.jpg"
     },
     {
-      slug: "angular2-in-action",
+      tagline: "angular2-in-action",
       title: "Angular 2 in Action",
       author: "Jeremy Wilken",
       publisher: "Manning",

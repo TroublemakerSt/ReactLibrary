@@ -1,9 +1,9 @@
 import React from 'react';
 
 function Book(props) {
-  const { topic, slug } = props.params;
+  const { topic, tagline } = props.params;
   const books = props.route.books[topic];
-  const book = books.find(book => book.slug === slug);
+  const book = books.find(book => book.tagline === tagline);
 
   return (
     <section className="content book">
