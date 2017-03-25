@@ -1,6 +1,6 @@
 {
     "name": "react-library",
-    "version": "0.5.0",
+    "version": "0.7.0",
     "description": "React Library with ReactRouter Ilya Kulikov",
     "scripts": {
         "start": "webpack-dev-server --inline --content-base ./public",

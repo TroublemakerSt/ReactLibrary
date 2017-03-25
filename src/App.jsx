@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Link } from 'react-router';
+import { Link, IndexLink } from 'react-router';
+
+import NavLink from './components/NavLink';
 
 class App extends React.Component {
   render() {
@@ -11,9 +13,10 @@ class App extends React.Component {
                     <span className="mdl-layout-title">ReactLibrary</span>
                     <span className="mdl-layout-spacer"></span>
                     <nav className="mdl-navigation">
-                        <Link to="/" className="mdl-navigation__link">Главная</Link>
-                        <Link to="/about" className="mdl-navigation__link">О проекте</Link>
-                        <Link to="/books" className="mdl-navigation__link">Книги</Link>
+                        <NavLink to="/" onlyActiveOnIndex={true}
+                        className="mdl-navigation__link">Главная</NavLink>
+                        <NavLink to="/about" className="mdl-navigation__link">О проекте</NavLink>
+                        <NavLink to="/books" className="mdl-navigation__link">Книги</NavLink>
                     </nav>
                 </div>
             </header>
