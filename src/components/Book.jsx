@@ -22,8 +22,8 @@ function Book(props) {
                         <div className="mdl-card__supporting-text">
                             <span>{book.author}</span>
                             <span>{book.publisher}</span>
-                            <span>{book.pages} стр.</span>
-                            <span>{book.year} г.</span>
+                            <span>{book.pages} pages</span>
+                            <span>{book.year} year</span>
                         </div>
 
                         <div className="mdl-card__supporting-text">{book.description}</div>
